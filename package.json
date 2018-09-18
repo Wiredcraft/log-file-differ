@@ -1,0 +1,23 @@
+{
+  "name": "log-file-differ",
+  "version": "1.0.0",
+  "description": "content differ for JSON based log file",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha -b --timeout 20000 --reporter spec test/*.test.js"
+  },
+  "keywords": [
+    "differ",
+    "log"
+  ],
+  "author": "Wiredcraft",
+  "license": "MIT",
+  "dependencies": {
+    "diff": "^3.5.0"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.12",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
